@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  html {
+    width: 768px;
+  }
+  .img1 {
+    width: 400px;
+  }
+  .list {
+    display: none;
+  }
+  /* .checkbtn{
+    display: block;
+  } */
+  #togglebtn {
+    display: block;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+  /* html{
+        width: 500px;
+    } */
+    .img1{
+        width: 200px;
+    }
+    #togglebtn {
+        display: block;
+       }
+}
+#togglebtn {
+  display:block;
+}

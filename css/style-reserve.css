@@ -1,0 +1,112 @@
+.sub-reserve-1-2{
+    display: grid;
+    grid-template-areas: 
+    "header content"
+    "side content"
+    "footer content"
+    ;
+    background-color: #ad8a54;
+    border-radius: 30px;
+}
+.sub-reserve-item1{
+    grid-area: header;
+}
+.sub-reserve-item4-1{
+    grid-area:side ;
+    background-color: #a87933;
+    border-radius: 50px;
+    padding: 25px;
+}
+.sub-reserve-item5{
+    grid-area: content;
+}
+.sub-reserve-item1-2{
+    padding:40px;
+    padding-left: 100px;
+}
+.sub-reserve-item4{
+    padding: 80px;
+    padding-left: 150px;   
+}
+
+.item3{
+    text-align: center;
+    padding-left: 20px;
+}
+.sub-reserve-item4-1{
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-decoration:none;
+}
+.sub-reserve-item4-1 a:hover{
+    background-color:#523a15
+}
+section{
+    display: grid;
+    justify-content: center;
+}
+.sub-reserve-item2{
+    padding-left: 30px;
+}
+.sub-reserve-3-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-background{
+    background-color: #a87933;
+    border: none;
+    border-radius: 0 10% 0 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 0;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    z-index: -1;
+}
+.swiper-slide-child{
+    width: 170px;
+    border: solid gray;
+    height: 200px;
+    border-radius: 10%;
+    margin: 5px;
+    position: relative;
+    right: 100px;
+}
+.slide-background-img{
+    position: relative;
+    bottom: 145px;
+    left: 25px;
+    z-index: 1;
+}
+.price{
+    position: relative;
+    left: 78px;
+    bottom: 150px;
+}
+.itemname{
+    position: relative;
+    left: 45px;
+    bottom: 175px;
+}
+.small-slide-background{
+    background-color: #a87933;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 0 50% 0;
+    position: relative;
+    left: 145px;
+    bottom: 203px;
+}
+.like{
+    position: relative;
+    left: 151px;
+    bottom: 223px;
+}
+.swiper-wrapper{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+}

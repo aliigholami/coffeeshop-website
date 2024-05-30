@@ -1,0 +1,42 @@
+#home{
+    display: grid;
+    grid-template-areas: 
+    "side head head"
+    "side main main"
+    "side button button";
+}
+.img1{
+    grid-area: side;
+    padding-left: 300px;
+}
+.headline1{
+    grid-area: head;
+    padding-right: 100px;
+}
+.headline1-2{
+    padding-top: 70px;
+}
+.paragraph{
+    grid-area: main;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+.btn{
+    grid-area: button;
+    padding-right: 100px;
+    padding-bottom: 60px;
+
+}
+.mybtn{
+    color: white;
+    background-color: saddlebrown;
+    border: none;
+    height: 30px;
+    border-radius: 30px;
+}
+.img1{
+    padding-left: 500px;
+}
+/* #togglebtn{
+    display: block;
+} */

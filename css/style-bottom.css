@@ -1,0 +1,34 @@
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px; 
+  } 
+.footer-container-2{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    grid-column-gap: 25px;
+}
+.footer-container-2-item{
+    width: auto;
+}
+#topbutton{
+    position: fixed;
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99;
+    background-color: rgb(116, 84, 17);
+    border-radius: 50%;
+}
+.footer-container-2-item-1{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.motto{
+    width: 151px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
