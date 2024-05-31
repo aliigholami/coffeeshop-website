@@ -98,12 +98,12 @@ section{
     border-radius: 50% 0 50% 0;
     position: relative;
     left: 145px;
-    bottom: 203px;
+    bottom: 215px;
 }
 .like{
     position: relative;
     left: 151px;
-    bottom: 223px;
+    bottom: 235px;
 }
 .swiper-wrapper{
     display: grid;
